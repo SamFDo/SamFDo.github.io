@@ -35,7 +35,16 @@
 
     <!-- CSS
         ============================================ -->
-
+<style>
+    .remove-space{
+        margin-bottom: -1.5em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .add-space{
+        margin-bottom: 1.0em;
+    }
+</style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
 
@@ -297,35 +306,43 @@
                     <div class="row mesonry-list">
 
                         <!--<div class="resizer"></div>-->
-                        <div class="col-lg-4 col-md-6 cat--1 video-popup">
-                            <!-- Projects Wrap Start -->
-                            <a href="https://www.youtube.com/watch?v=Dl-pnQcshSA" class="video-link projects-wrap style-2">
-                            
-                                <div class="projects-image-box">
-                                    <div class="projects-image single-popup-wrap">
-                                        <img class="img-fluid" src="assets/images/products/m1.jpg" alt="">
-                                        <div class="ht-popup-video video-button">
-                                            <div class="video-mark">
-                                                <div class="wave-pulse wave-pulse-1"></div>
-                                                <div class="wave-pulse wave-pulse-2"></div>
-                                            </div>
-                                            <div class="video-button__two">
-                                                <div class="video-play">
-                                                    <span class="video-play-icon"></span>
+                        <div class="col-lg-4 col-md-6 cat--1 ">
+                            <div class="video-popup">
+                                <!-- Projects Wrap Start -->
+                                <a href="https://www.youtube.com/watch?v=Dl-pnQcshSA" class="video-link projects-wrap style-2">
+                                
+                                    <div class="projects-image-box">
+                                        <div class="projects-image single-popup-wrap">
+                                            <img class="img-fluid" src="assets/images/products/m1.jpg" alt="">
+                                            <div class="ht-popup-video video-button">
+                                                <div class="video-mark">
+                                                    <div class="wave-pulse wave-pulse-1"></div>
+                                                    <div class="wave-pulse wave-pulse-2"></div>
+                                                </div>
+                                                <div class="video-button__two">
+                                                    <div class="video-play">
+                                                        <span class="video-play-icon"></span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="content">
+                                            <div class="post-categories">Machinery</div>
+                                            <h6 class="heading remove-space">Disposable Mask Fully Automatic </h6>
+                                        
+                                        </div>
+                                    
                                     </div>
-                                    <div class="content">
-                                        <div class="post-categories">Machinery</div>
-                                        <h6 class="heading">Disposable Mask Fully Automatic </h6>
-                                    </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
+                            <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#dimaskauto">
+                                Specs
+                              </button>
                             <!-- Projects Wrap End -->
                         </div>
-
-                        <div class="col-lg-4 col-md-6 cat--1 video-popup">
+                       
+                        <div class="col-lg-4 col-md-6 cat--1">
+                            <div class="video-popup">
                             <!-- Projects Wrap Start -->
                             <a href="https://www.youtube.com/watch?v=f4Soah9rDyg" class="video-link projects-wrap style-2">
                                 <div class="projects-image-box">
@@ -345,45 +362,56 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Machinery</div>
-                                        <h6 class="heading">KN95 Mask Fully  Automatic </h6>
+                                        <h6  class="heading remove-space">KN95 Mask Fully  Automatic </h6>
                                     </div>
                                 </div>
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#kn95fullauto">
+                            Specs
+                          </button>
                             <!-- Projects Wrap End -->
                         </div>
 
-                        <div class="col-lg-4 col-md-6 cat--1 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--1 ">
                             <!-- Projects Wrap Start -->
-                            <a href="assets/images/products/m3/4.jpg" class="single-gallery projects-wrap style-2">
-                                <div class="projects-image-box single-gallery__item">
-                                    <div class="projects-image single-gallery__thum">
-                                        <img class="img-fluid" src="assets/images/products/m3.jpg" alt="">
-                                       
+                            <div class="popup-images">
+                                <a href="assets/images/products/m3/4.jpg" class="single-gallery projects-wrap style-2">
+                                    <div class="projects-image-box single-gallery__item">
+                                        <div class="projects-image single-gallery__thum">
+                                            <img class="img-fluid" src="assets/images/products/m3.jpg" alt="">
+                                        
+                                        </div>
+                                        <div class="content">
+                                            <div class="post-categories">Machinery</div>
+                                            <h6 class="heading remove-space">KN95 Mask Semi  Automatic </h6>
+                                        </div>
                                     </div>
-                                    <div class="content">
-                                        <div class="post-categories">Machinery</div>
-                                        <h6 class="heading">KN95 Mask Semi  Automatic </h6>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="assets/images/products/m3/1.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
-                                
-                            </a>
-                            <a href="assets/images/products/m3/2.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
-                                
-                            </a>
-                            <a href="assets/images/products/m3/3.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
-                                
-                            </a>
-                            <a href="assets/images/products/m3/5.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
-                                
-                            </a>
-                            <a href="assets/images/products/m3/6.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
-                                
-                            </a>
+                                </a>
+                        
+                                <a href="assets/images/products/m3/1.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
+                                    
+                                </a>
+                                <a href="assets/images/products/m3/2.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
+                                    
+                                </a>
+                                <a href="assets/images/products/m3/3.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
+                                    
+                                </a>
+                                <a href="assets/images/products/m3/5.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
+                                    
+                                </a>
+                                <a href="assets/images/products/m3/6.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
+                                    
+                                </a>
+                            </div>
+                            <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#kn95semiauto">
+                                Specs
+                            </button>
                             <!-- Projects Wrap End -->
                         </div>
-                        <div class="col-lg-4 col-md-6 cat--2 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--2">
+                            <div class="popup-images">
                             <!-- Projects Wrap Start -->
                             <a href="assets/images/products/mb/Melt-Blown-2.jpg" class="single-gallery projects-wrap style-2">
                                 <div class="projects-image-box single-gallery__item">
@@ -392,16 +420,21 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Material</div>
-                                        <h6 class="heading">Melt Blown</h6>
+                                        <h6 class="heading remove-space">Melt Blown</h6>
                                     </div>
                                 </div>
                             </a>
                             <a href="assets/images/products/mb/Melt-Blown-1.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
                                 
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#mbmaterials">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
-                        <div class="col-lg-4 col-md-6 cat--2 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--2">
+                            <div class="popup-images">
                             <!-- Projects Wrap Start -->
                             <a href="assets/images/products/nwk/Non-Woven-Kids-2.jpg" class="single-gallery projects-wrap style-2">
                                 <div class="projects-image-box single-gallery__item">
@@ -410,16 +443,21 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Material</div>
-                                        <h6 class="heading">Non Woven Kids</h6>
+                                        <h6 class="heading remove-space">Non Woven Kids</h6>
                                     </div>
                                 </div>
                             </a>
                             <a href="assets/images/products/nwk/Non-Woven-Kids-1.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
                                 
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#nwk">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
-                        <div class="col-lg-4 col-md-6 cat--2 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--2">
+                            <div class="popup-images">
                             <!-- Projects Wrap Start -->
                             <a href="assets/images/products/nw/Non-Woven-1.jpg" class="single-gallery projects-wrap style-2">
                                 <div class="projects-image-box single-gallery__item">
@@ -428,16 +466,21 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Material</div>
-                                        <h6 class="heading">Non Woven </h6>
+                                        <h6 class="heading remove-space">Non Woven </h6>
                                     </div>
                                 </div>
                             </a>
                             <a href="assets/images/products/nw/Non-Woven-2.jpg" style="display: none;"  class="single-gallery projects-wrap style-2">
                                 
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#nw">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
-                        <div class="col-lg-4 col-md-6 cat--3 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--3">
+                            <div class="popup-images">
                             <!-- Projects Wrap Start -->
                             <a href="assets/images/products/masks/KN95-Valve.jpg" class="single-gallery projects-wrap style-2">
                                 <div class="projects-image-box single-gallery__item">
@@ -446,7 +489,7 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Masks</div>
-                                        <h6 class="heading">KN95 Masks with Valve</h6>
+                                        <h6 class="heading remove-space">KN95 Masks with Valve</h6>
                                     </div>
                                 </div>
                             </a>
@@ -456,9 +499,14 @@
                             <a href="assets/images/products/masks/Layers.png" style="display: none;"  class="single-gallery projects-wrap style-2">
                                 
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#kn95maskvalve">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
-                        <div class="col-lg-4 col-md-6 cat--3 popup-images">
+                        <div class="col-lg-4 col-md-6 cat--3 ">
+                            <div class="popup-images">
                             <!-- Projects Wrap Start -->
                             <a href="assets/images/products/masks/KN95.jpg" class="single-gallery projects-wrap style-2">
                                 <div class="projects-image-box single-gallery__item">
@@ -467,7 +515,7 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Masks</div>
-                                        <h6 class="heading">KN95 Masks without Valve</h6>
+                                        <h6 class="heading remove-space">KN95 Masks without Valve</h6>
                                     </div>
                                 </div>
                             </a>
@@ -477,6 +525,10 @@
                             <a href="assets/images/products/masks/Layers.png" style="display: none;"  class="single-gallery projects-wrap style-2">
                                 
                             </a>
+                        </div>
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#kn95masknvalve">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
 
@@ -489,10 +541,14 @@
                                     </div>
                                     <div class="content">
                                         <div class="post-categories">Masks</div>
-                                        <h6 class="heading">Disposable Mask</h6>
+                                        <h6 class="heading remove-space">Disposable Mask</h6>
                                     </div>
                                 </div>
                             </a>
+                   
+                        <button  type="button"  class="btn btn-primary col-md-8 offset-md-2 add-space" data-toggle="modal" data-target="#dismask">
+                            Specs
+                        </button>
                             <!-- Projects Wrap End -->
                         </div>
 
@@ -723,6 +779,242 @@
    
     <!--====================  End of scroll top  ====================-->
 
+    <!-- Modal product details -->
+<div class="modal fade" id="dimaskauto" tabindex="-1" role="dialog" aria-labelledby="dimaskautoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="dimaskautoLabel">Disposable Masks Fully Automatic-</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <strong>Production output:</strong> 80 to 110 pcs/Min<br>
+         <strong>Power Supply:</strong> 110/220V 50/60Hz<br>
+         <strong>Power:</strong>5KW<br>
+         <strong>Air Pressure:</strong> 0.6MPa to 0.8MPa<br>
+         <strong>Material Width:</strong> Top Npn-Woven 175mm, Melt Blown 175mm, Inner Non-Woven 195mm<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Modal product details -->
+<div class="modal fade" id="kn95fullauto" tabindex="-1" role="dialog" aria-labelledby="kn95fullautoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kn95fullautoLabel">KN95 Fully Automatic</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <strong>Production output:</strong> 50 to 60 pcs/Min<br>
+            <strong>Power Supply:</strong> 110/220V 50/60Hz<br>
+            <strong>Power:</strong>9KW<br>
+            <strong>Air Pressure:</strong> 0.6MPa to 0.8MPa<br>
+            <strong>Material Width:</strong>All layers width 260mm<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- Modal product details -->
+<div class="modal fade" id="kn95semiauto" tabindex="-1" role="dialog" aria-labelledby="kn95semiautoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kn95semiautoLabel">KN95 Semi-Automatic Mask Machine</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <strong>Production output:</strong> 50 to 60 pcs/Min<br>
+            <strong>Power Supply:</strong> 110/220V 50/60Hz<br>
+            <strong>Power:</strong>6.5KW<br>
+          
+            <strong>Material Width:</strong>All layers width 260mm<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal product details -->
+<div class="modal fade" id="mbmaterials" tabindex="-1" role="dialog" aria-labelledby="mbmaterialsLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mbmaterialsLabel">Melt Blown</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <strong> Width of the reel:</strong> 175mm<br>
+        This width is being used mainly for disposable masks.
+        Also being used with KN95 mask verticle feed type machines.<br>
+        <strong> Width of the reel:</strong> 260mm<br>
+        This type is being used only for KN95 masks horizontal feed type machines.<br>
+        <strong>Bactrial Filtration Efficiency:</strong> >=90%,>=95%,>=99%<br>
+        Generally >=90%  being used for disposable masks.
+        >=95%,>=99% being used for surgical masks and KN95 masks.
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal product details -->
+<div class="modal fade" id="nwk" tabindex="-1" role="dialog" aria-labelledby="nwkLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="nwkLabel">Non Woven Kids</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <strong>For Disposable Masks</strong><br>
+        175mm width Single S type 25g/m White/Blue<br>
+        175mm width Double S type 25g/m White/Blue<br>
+        195mm width Single S type 25g/m White<br>
+        195mm width Double S type 25g/m White<br>
+
+        <strong>For KN95 Masks</strong>
+        175mm width Single S type 25g/m White<br>
+        175mm width Double S type 25g/m White<br>
+        175mm width Double S type 50g/m White<br>
+        260mm width Single S type 25g/m White<br>
+        260mm width Double S type 25g/m White<br>
+        260mm width Double S type 50g/m White<br>
+
+        <strong>Non-Woven inner sponge fabric for KN95 Masks</strong>
+        175mm width  ES type 25g/m White<br>
+        175mm width  ES type 50g/m White<br>
+        260mm width  ES type 25g/m White<br>
+        260mm width  ES type 50g/m White<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Modal product details -->
+<div class="modal fade" id="nw" tabindex="-1" role="dialog" aria-labelledby="nwLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="nwLabel">Non Woven</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <strong>For Disposable Masks</strong><br>
+            175mm width Single S type 25g/m White/Blue<br>
+            175mm width Double S type 25g/m White/Blue<br>
+            195mm width Single S type 25g/m White<br>
+            195mm width Double S type 25g/m White<br>
+    
+            <strong>For KN95 Masks</strong>
+            175mm width Single S type 25g/m White<br>
+            175mm width Double S type 25g/m White<br>
+            175mm width Double S type 50g/m White<br>
+            260mm width Single S type 25g/m White<br>
+            260mm width Double S type 25g/m White<br>
+            260mm width Double S type 50g/m White<br>
+    
+            <strong>Non-Woven inner sponge fabric for KN95 Masks</strong>
+            175mm width  ES type 25g/m White<br>
+            175mm width  ES type 50g/m White<br>
+            260mm width  ES type 25g/m White<br>
+            260mm width  ES type 50g/m White<br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal product details -->
+<div class="modal fade" id="kn95maskvalve" tabindex="-1" role="dialog" aria-labelledby="kn95maskvalveLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kn95maskvalveLabel">KN95 Masks With Valve</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+     
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal product details -->
+<div class="modal fade" id="kn95masknvalve" tabindex="-1" role="dialog" aria-labelledby="kn95masknvalveLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kn95masknvalveLabel">KN95 Masks without Valve</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Modal product details -->
+<div class="modal fade" id="dismask" tabindex="-1" role="dialog" aria-labelledby="dismaskLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="dismaskLabel">Disposable Masks</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+    
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- JS
     ============================================ -->
     <!-- Modernizer JS -->
